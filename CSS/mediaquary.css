@@ -61,3 +61,10 @@
         max-width: 100%;
     }
 }
+
+@media(max-width:490px) {
+    .name {
+        display: flex;
+        flex-direction: column;
+    }
+}

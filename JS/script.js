@@ -107,3 +107,5 @@ const nav = document.querySelector(".nav"),
                 this.textContent = 'show more';
             }
         })
+
+       
