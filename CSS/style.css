@@ -464,6 +464,9 @@ h3.my-profession {
     position: relative;
     padding-left: 37px;
     padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .about .about-content .timeline .timeline-item:last-child {
     padding-bottom: 0;
@@ -669,4 +672,9 @@ h4.contact-sub-title {
 .contact .contact-form .btn {
     height: 50px;
     padding: 0 50px;
+}
+
+/* Extra CSS add  */
+.text-bold {
+    font-weight:600;
 }
