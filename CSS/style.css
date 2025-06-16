@@ -342,6 +342,8 @@ h3.my-profession {
     border-radius: 5px;
 }
 
+/* About section */
+
 .about .about-content {
     flex: 0 0 100%;
     max-width: 100%;
@@ -511,6 +513,14 @@ h3.my-profession {
     text-align: justify;
     color: var(--text-black-700);
 }
+/* Extra CSS add inside about section */
+.timeline-text .text-bold {
+    font-weight: 500;
+}
+.timeline-text .company-name {
+    color: var(--text-black-700);
+}
+
 /* service  */
 .service .container {
     padding-bottom: 40px;
@@ -674,7 +684,3 @@ h4.contact-sub-title {
     padding: 0 50px;
 }
 
-/* Extra CSS add  */
-.text-bold {
-    font-weight:600;
-}
